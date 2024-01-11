@@ -7,6 +7,7 @@ Enviando email com a biblioteca [emailjs](https://www.emailjs.com/).
 - HTML
 - CSS
 - Javascript
+- Emailjs
 
 ## Como utilizar
 
