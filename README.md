@@ -30,7 +30,7 @@ O método básico para enviar um email com EmailJS.
 ### Sintaxe
 
 ```javascript
-emailjs.send(serviceID, templateID, templateParams, publicKey);
+emailjs.send(serviceID, templateID, templateParams);
 ```
 
 ### Resultado
