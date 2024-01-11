@@ -28,7 +28,9 @@ span {
 .form {
   display: flex;
   flex-direction: column;
-  width: 30rem;
+  max-width: 30rem;
+  width: 100%;
+  padding-inline: 1rem;
 }
 
 input, textarea, button {
