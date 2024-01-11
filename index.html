@@ -7,12 +7,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Email Send</h1>
+  <h1>Email <span>Send</span></h1>
   <div class="form">
     <input type="text" id="name" placeholder="Digite seu nome" required>
     <input type="email" id="email" placeholder="Digite seu email" required>
     <textarea id="message" placeholder="Digite sua mensagem" required></textarea>
     <button onclick="sendEmail()">Enviar</button>
+  </div>
+
+  <div class="popup">
+    <p>Enviado com sucesso!</p>
   </div>
 </body>
 

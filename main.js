@@ -16,7 +16,15 @@ function sendEmail() {
 
   emailjs.send("service_b4xa1ob", "template_dcbkums", params).then(
     (response) => {
-      alert("SUCCESS!", response.status, response.text);
+      if(response) {
+        document.querySelector('.popup').classList.add('popup-inner')
+        setTimeout(() => {
+        document.querySelector('.popup').classList.remove('popup-inner')
+        }, 3000)
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+      }
     },
     (error) => {
       alert("FAILED...", error);
